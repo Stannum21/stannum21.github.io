@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Праздник в каждый дом</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/booking.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a href="index.html" class="header__logo">
+            <img src="../img/logo.svg" alt="Логотип" />
+          </a>
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#actions" class="menu__link">Акции</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="search.html" class="menu__link">Поиск</a>
+              </li>
+
+              <li class="menu__item item_bronir">
+                <a href="booking.html" class="menu__link"
+                  >Управление бронированием</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="bookingMain">
+        <div class="bookingMain__container">
+          <div class="bookingMain__title title">
+            Данные <span style="color: #4fbb37">о заказе</span>
+          </div>
+          <div class="bookingMain__storage">
+            <div class="storage__list">
+              <div class="storage__items">
+                <div class="storage__title">Регион</div>
+                <div class="storage__info">Оренбургская область</div>
+              </div>
+              <div class="storage__items">
+                <div class="storage__title second">Адрес локации</div>
+                <div class="storage__info">ТЦ Север, ул. Пушкина 36</div>
+              </div>
+              <div class="storage__items">
+                <div class="storage__title">Дата мероприятия</div>
+                <div class="storage__info">26.10.2023</div>
+              </div>
+              <div class="storage__items">
+                <div class="storage__title second">Количество человек</div>
+                <div class="storage__info">16</div>
+              </div>
+              <div class="bookingMain__count">
+                <div class="count__title">Стоимость</div>
+                <div class="count__info">6.900</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="selectAddition">
+        <div class="selectAddition__container">
+          <div class="selectAddition__title title">
+            Выбор <span style="color: #f2f047">дополнительных</span> услуг
+          </div>
+          <form class="selectAddition__list">
+            <div class="selectAddition__item">
+              <input type="checkbox" name="add" id="add1" />
+              <label for="add1"
+                >Организация питания
+                <span style="color: #fff">+500р/чел.</span></label
+              >
+            </div>
+
+            <div class="selectAddition__item">
+              <input type="checkbox" name="add" id="add2" />
+              <label for="add2"
+                >Услуги аниматоров<span style="color: #fff">+3000р</span>
+              </label>
+            </div>
+
+            <div class="selectAddition__item">
+              <input type="checkbox" name="add" id="add3" />
+              <label for="add3"
+                >Услуги ведущего <span style="color: #fff">+2000р</span></label
+              >
+            </div>
+
+            <div class="selectAddition__item">
+              <input type="checkbox" name="add" id="add4" />
+              <label for="add4"
+                >Услуги детского такси
+                <span style="color: #fff">+1500р</span></label
+              >
+            </div>
+          </form>
+
+          <div class="selectAddition__title-comment">
+            Дополнительный <span style="color: #f2f047">комментарий</span> к
+            заказу
+          </div>
+          <form class="selectAddition__comment">
+            <textarea name="comment" id="comm" cols="30" rows="10"></textarea>
+          </form>
+
+          <div class="selectAddition__title-email">
+            Введите <span style="color: #f2f047">e-mail</span>
+          </div>
+          <form class="selectAddition__email">
+            <input type="email" name="email" id="email1" />
+          </form>
+          <div class="selectAddition__count-title">Итоговая стоимость</div>
+          <div class="selectAddition__count">11.900</div>
+          <input
+            type="submit"
+            class="selectAddition__button button"
+            value="Отправить!"
+          />
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__info">
+            <a href="index.html" class="footer__logo">
+              <img src="../img/logo2.svg" alt="Логотип" />
+            </a>
+            <nav class="footer__menu">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#actions" class="footer__link">Акции</a>
+                </li>
+                <li class="footer__item">
+                  <a href="search.html" class="footer__link">Поиск</a>
+                </li>
+                <li class="footer__item">
+                  <a href="booking.html" class="footer__link"
+                    >Управление бронированием</a
+                  >
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">8-(800)-111-20-20</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__sertif">
+            <p>© 2023 Компания «Праздник в каждый дом»</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
